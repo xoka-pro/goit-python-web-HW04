@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "goit-python-web-hw04"
+version = "0.1.0"
+description = ""
+authors = ["Oleh Ovchinnikov <112849429+xoka-pro@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "goit_python_web_hw04"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
